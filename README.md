@@ -24,24 +24,6 @@ Devises：存储设备状态及维修历史
 自动覆盖最旧记录（当历史记录满5条时）
 时间+地点双维度记录
 
-graph TD
-    A[表现层] -->|菜单驱动| B[业务逻辑层]
-    B -->|数据操作| C[数据存储层]
-    
-    subgraph 表现层
-        A1[menu.c] -->|用户交互| A2[main.c]
-    end
-    
-    subgraph 业务逻辑层
-        B1[engineer_funcs.c] -->|工程师操作| B2[linklist.c]
-        B3[devise_linklist.c] -->|设备操作| B4[admin.c]
-    end
-    
-    subgraph 数据存储层
-        C1[engineer_file.c] -->|文件I/O| C2[Engineers]
-        C3[devise_file.c] -->|文件I/O| C4[Devises]
-    end
-
 操作指南
 首次启动：自动创建空数据文件（Engineers/Devises）
 管理员登录：
