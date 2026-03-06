@@ -1,0 +1,123 @@
+
+# 通用忽略（操作系统/编辑器）
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.cproject
+.project
+*.sublime-project
+*.sublime-workspace
+
+
+# 可执行文件
+*.out
+*.exe
+*.bin
+a.out
+
+# 目标文件
+*.o
+*.obj
+
+# 调试文件
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.exp
+
+# 依赖文件
+*.d
+*.manifest
+*.res
+*.sbr
+
+# 链接文件
+*.map
+*.tds
+*.bsc
+
+# 静态/动态库
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+
+
+# 通用构建目录
+build/
+bin/
+obj/
+*.dSYM/
+.deps/
+.libs/
+
+# CMake 专用
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_Darwin/
+_Install/
+_Output/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Autotools 专用
+autom4te.cache/
+configure
+config.h
+config.log
+config.status
+Makefile
+.libs/
+.deps/
+*.la
+*.lo
+
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+*.cbworkspace
+
+# CLion
+cmake-build-*/
+
+# Qt Creator
+*.pro.user
+*.qmake.cache
+
+# Eclipse
+.metadata/
+local.properties
+.externalToolBuilders/
+*.launch
+.cproject
+.project
+
+
+# 忽略程序生成的数据文件
+Engineers
+Devises
+test_output.txt
+*.bak
+*.tmp
+
+# 临时测试文件
+test_*
+*_test
