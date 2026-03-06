@@ -38,22 +38,41 @@ Devises：存储设备状态及维修历史
 
 📂 项目结构
 ├── code/               # 源代码文件夹
+
 │   ├── main.c          # 程序入口 + 初始化
+
 │   ├── menu.h/c        # 菜单系统（身份选择/功能导航）
+
 │   ├── tools.h         # 基础工具（状态码定义）
+
 │   ├── engineer.h      # 工程师结构体定义
+
 │   ├── engineer_funcs.h/c # 业务逻辑（注册/登录/维修）
+
 │   ├── engineer_file.h/c # 文件操作（存/取）
+
 │   ├── devise.h        # 设备结构体定义
+
 │   ├── devise_linklist.h/c # 设备链表操作
+
 │   ├── devise_file.h/c # 设备文件操作
+
 │   ├── admin.h         # 管理员结构体
+
 │   ├── admin.c         # 管理员登录
+
 │   ├── linklist.h/c    # 工程师链表实现
+
 │   ├── Engineers       # 工程师数据文件
+
 │   └── Devises         # 设备数据文件
+
 ├── docs/               # 文档文件夹
+
 │   └── 管理员账号密码.txt # 管理员账号密码存放文档
+
 ├── pictures/           # 功能实现截图文件夹
+
 ├── .gitignore          # 忽略规则
+
 └── README.md           # 本文件
